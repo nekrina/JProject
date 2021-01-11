@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmls:th="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<title>Administrator</title>
+</head>
+<body>
+	<h1 style="text-align:center;">list</h1>
+	<b class="t"><p th:text="${name}" style="display: table-caption;"></p>
+	<hr></b>
+	<span class="cost"><p th:text="${price}"></p></span>
+</body>
+</html>
+<style>
+   .cost {
+    color: #4CAF50; /* Цвет текста */
+    font-weight: bold; /* Жирное начертание */
+    font-family: 'Times New Roman', Times, serif; /* Гарнитура текста */ 
+    font-size: 250%;
+   }
+   .t {
+    font-family: 'Times New Roman', Times, serif; /* Гарнитура текста */ 
+    font-size: 100%;
+   }
+  </style>

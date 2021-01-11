@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pharmacy</title>
+</head>
+<body>
+<a href="/spring-mvc-app1/login">Login</a>
+	<div>
+		<table border ="1">
+			<caption>Product</caption>
+			<tr><th>Antiseptic</th><th>9.99</th>	<th><a href="/spring-mvc-app1/ror?name=Antiseptic&price=9.99">Buy</a></th></tr>
+			<tr><th>Diclofenac</th><th>8.98</th>	<th><a href="/spring-mvc-app1/ror?name=Diclofenac&price=8.98">Buy</a></th></tr>
+			<tr><th>Ofloxacin</th><th>7.97</th>		<th><a href="/spring-mvc-app1/ror?name=Ofloxacin&price=7.97">Buy</a></th></tr>
+			<tr><th>Etodolac</th><th>6.96</th>		<th><a href="/spring-mvc-app1/ror?name=Etodolac&price=6.96">Buy</a></th></tr>
+			<tr><th>Alendronate</th><th>5.95</th>	<th><a href="/spring-mvc-app1/ror?name=Alendronate&price=5.95">Buy</a></th></tr>
+			<tr><th>ALFUZOSIN</th><th>4.94</th>		<th><a href="/spring-mvc-app1/ror?name=ALFUZOSIN&price=4.94">Buy</a></th></tr>
+		</table>
+	</div>
+</body>
+</html>
+<style>
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  border-collapse: collapse;
+  color: #686461;
+  width: 100%;
+}
+caption {
+  padding: 10px;
+  color: white;
+  background: #4CAF50;
+  font-size: 18px;
+  text-align: left;
+  font-weight: bold;
+}
+th {
+  border-bottom: 3px solid #B9B29F;
+  padding: 10px;
+  text-align: left;
+}
+td {
+  padding: 10px;
+}
+tr:nth-child(odd) {
+  background: white;
+}
+tr:nth-child(even) {
+  background: #E8E6D1;
+}
+</style>
